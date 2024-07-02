@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    background-color: #e6eff6;
+    align-items: center;
+}
+.card{
+    background-color: #ffffff;
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 12vh;
+    font-family: "Karla";
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 55px;
+    padding: 45px;
+}
+.info h1{
+    color: #3cada9;
+    margin: 0;
+    font-size: 26px;
+}
+
+.info p{
+    color: #bfdf32;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.info span{
+    line-height: 30px;
+    color: #5a5a5bbd;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #2bb3b1;
+    height: auto ;
+    color: #ffffff;
+}
+.fee{
+    background-color: #2bb3b1;
+    width: 100%;
+    height: auto;
+    padding: 45px;
+    text-align: left;
+    
+}
+.fee h2{
+    margin: 0;
+    font-size: 20px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.price p{
+    font-size: 40px;
+    margin: 0;
+}
+span{
+    color: #ffffff91;
+}
+
+.fee h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 17.5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+button{
+    background-color: #bfdf32;
+    width: 260px;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px 0px;
+    border: none;
+    color: #ffffff;
+    font-family: "karla";
+    font-weight: 700;
+    margin-top: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.why{
+    background-color: #4abebd;
+    width: 100%;
+    height: auto;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.why span{
+    line-height: 25px
+}
